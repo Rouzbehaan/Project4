@@ -19,7 +19,7 @@ export default function Form({ onAddActivity })
   return (
     <form className="activity-form" onSubmit={handleSubmitData}>
       {/* This is the main form element that wraps the entire form content. The "onSubmit" attribute is set to call the "handleSubmitData" function when the form is submitted. */}
-      <h2 className="activity-form__title">Add new Activity:</h2>
+      <h2 className="activity-form__title">Add new Activity :</h2>
       {/* This is a heading displaying the title "Add new Activity". */}
       <div className="activity-form__new-activity">
       {/* This div contains the input field for entering the new activity. */}
@@ -30,13 +30,13 @@ export default function Form({ onAddActivity })
           id="activityInput"
           name="activityInput"
           minLength="3"
-          placeholder="Write Your Beloved Activity Here"
+          placeholder="Write Your Beloved Activity Here "
         />
         {/* This is the input field where the user can enter the new activity. The ID "activityInput" is associated with the label. It has a minimum length set to 3 characters, and it shows the placeholder text "Write Your Beloved Activity Here". */}
       </div>
       <div className="activity-checkbox">
       {/* This div contains a checkbox input field for indicating whether the activity is suitable for good weather. */}
-        <label className="checkbox-label">Good-Weather Activity:</label>
+        <label className="checkbox-label">Good-Weather Activity :</label>
         {/* This label text describes the checkbox for indicating if the activity is suitable for good weather. */}
         <input
           className="checkbox"
