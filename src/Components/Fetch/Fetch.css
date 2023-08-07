@@ -1,0 +1,15 @@
+.weatherBox {
+    background-color: #DD3838;
+    border: 5px solid #151414;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .emoji {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .temperature {
+    font-size: 24px;
+    color: #85CC00;
+  }
